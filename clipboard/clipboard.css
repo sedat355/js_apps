@@ -3,10 +3,11 @@
 }
 
 p {
-
+  background-color: #f1f1f1;
+  padding: 8px 15px;
 }
 
-[data-btn] {
+.copy {
   background-color: #009578;
   color: #fff;
   border-radius: 6px;
@@ -19,14 +20,14 @@ p {
   cursor: pointer;
   font-size: 22px;
 }
-[data-btn]:active {
+.copy:active {
   background-color: #006f59;
 }
-[data-btn]:disabled {
+.copy:disabled {
   background-color: #f1f1f1;
   color: #333333;
   cursor: not-allowed;
 }
-[data-icon] {
+.icon {
   font-size: 32px;
 }
