@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+p {
+
+}
+
+[data-btn] {
+  background-color: #009578;
+  color: #fff;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 22px;
+}
+[data-btn]:active {
+  background-color: #006f59;
+}
+[data-btn]:disabled {
+  background-color: #f1f1f1;
+  color: #333333;
+  cursor: not-allowed;
+}
+[data-icon] {
+  font-size: 32px;
+}
